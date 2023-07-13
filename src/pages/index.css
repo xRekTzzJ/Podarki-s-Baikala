@@ -1,0 +1,215 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/stylesheet.css);
+.body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'SF Pro Display', Inter;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    max-width: 1920px;
+    background-color: #d3d3d3;
+}
+.page{
+    margin: 0 auto 0;
+    padding: 0;
+    background-image: url(../images/светлый\ фон.jpeg);
+    background-size: cover;
+}
+.header__logo-image{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(../images/fon.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 10px 370px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.header__button-text{
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    transition: .2s;
+
+}
+.header__button-text:hover{
+    color: #7b4e0a;
+}
+.header__navigation{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.header__button{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    cursor: pointer;
+    align-items: center;
+}
+.header__button-arrow{
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    width: 14px;
+    background-image: url(../images/Expand.svg);
+    background-size: cover;
+}
+.header__logo{
+    margin: 0;
+    padding: 0;
+    transition: .2s;
+}
+.header__logo:hover{
+    opacity: .7;
+}
+@media screen and (max-width: 1650px) {
+    .header{
+        padding: 10px 250px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .header{
+        padding: 10px 75px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .header{
+        padding: 10px 50px;
+    }
+}
+@media screen and (max-width: 850px){
+.header{
+    gap: 50px;
+}
+}
+@media screen and (max-width: 800px){
+    .header__button-text{
+        font-size: 20px;
+    }
+    .header{
+        gap: 20px;
+        padding: 5px 40px;
+    }
+    }
+@media screen and (max-width: 650px){
+    .header{
+        padding: 0 20px;
+        gap: 10px;
+    }
+    .header__button-text{
+        font-size: 16px;
+    }
+    }
+@media screen and (max-width: 390px){
+        .header{
+            padding: 0 10px;
+            gap: 10px;
+        }
+        .header__button-text{
+            font-size: 14px;
+        }
+        }
+.about-us{
+    margin: 30px 30px 0 30px;
+    padding: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.about-us__image{
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    object-fit: cover;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.about-us__text{
+    margin: 30px 10px 0 10px;
+    padding: 0;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+    text-indent: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us__button{
+    margin: 70px 0 0;
+    padding: 0;
+    width: 240px;
+    height: 60px;
+    background-color: #d7870f;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.about-us__button:hover{
+    opacity: .9;
+    color: #7b4e0a;
+}
+
+@media screen and (max-width: 1160px) {
+    .about-us{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .about-us__image{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .about-us__text{
+        margin: 15px 10px 0;
+    }
+    .about-us__button{
+        margin: 30px 0 0;
+    }
+}
+@media screen and (max-width: 550px) {
+    .about-us__text{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .about-us__text{
+        margin: 15px 0px 0;
+    }
+    .about-us__image{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .about-us__image{
+        height: 250px;
+    }
+}
