@@ -16,7 +16,8 @@
 .page{
     margin: 0 auto 0;
     padding: 0;
-    background-image: url(../images/SvetlyFon.jpeg);
+    /* background-image: url(../images/SvetlyFon.jpeg); */
+    background-color:#faebd7;
     background-size: cover;
 }
 .header__logo-image{
@@ -144,7 +145,7 @@
     margin: 0;
     padding: 0;
     max-width: 50%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -180,6 +181,12 @@
     color: #7b4e0a;
 }
 
+@media screen and (max-width: 1500px) {
+    .about-us__text{
+        font-size: 24px;
+    }
+}
+
 @media screen and (max-width: 1160px) {
     .about-us{
         flex-direction: column;
@@ -188,6 +195,14 @@
     .about-us__image{
         max-width: 100%;
     }
+}
+@media screen and (max-width: 950px) {
+.about-us__text{
+    margin: 10px 10px 0 10px;
+}
+.about-us__button{
+    margin: 40px 0 0;
+}
 }
 @media screen and (max-width: 650px) {
     .about-us__text{
@@ -346,6 +361,9 @@
   .catalog{
     padding: 0 200px 40px;
   }
+  .footer{
+    padding: 0 150px; 
+  }
 }
 @media screen and (max-width: 1525px) {
     .catalog{
@@ -366,6 +384,11 @@
       grid-template-columns: repeat(3, 1fr);
     }
   }
+  @media screen and (max-width: 950px) {
+    .footer{
+        padding: 0 100px; 
+      }
+  }
   @media screen and (max-width: 900px) {
     .catalog{
       padding: 0 50px 40px;
@@ -375,6 +398,11 @@
     .catalog{
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: repeat(2, 1fr);
+    }
+    .footer{
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 10px; 
     }
   }
   @media screen and (max-width: 530px) {
