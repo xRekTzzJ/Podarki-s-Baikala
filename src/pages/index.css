@@ -72,14 +72,6 @@
     cursor: pointer;
     align-items: center;
 }
-.header__button-arrow{
-    margin: 0;
-    padding: 0;
-    height: 10px;
-    width: 14px;
-    background-image: url(../images/Expand.svg);
-    background-size: cover;
-}
 .header__logo{
     margin: 0;
     padding: 0;
