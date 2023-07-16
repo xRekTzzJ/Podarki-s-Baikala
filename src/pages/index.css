@@ -121,10 +121,6 @@
     .header__button-text{
         font-size: 16px;
     }
-    .header__logo-image{
-        width: 65px;
-        height: 65px;
-    }
     }
 @media screen and (max-width: 390px){
         .header{
