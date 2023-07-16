@@ -9,5 +9,5 @@ mainImage.addEventListener('click', () => {
 })
 popupWithImage.setEventListeners();
 const headerButton = document.querySelector('.header__button');
-const catalog = document.querySelector('.catalog');
-headerButton.addEventListener('click', () => catalog.scrollIntoView(true));
+const catalogTitle = document.querySelector('.catlog__title');
+headerButton.addEventListener('click', () => catalogTitle.scrollIntoView(true));
