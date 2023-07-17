@@ -10,16 +10,15 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    max-width: 1920px;
     background-color: #d3d3d3;
 }
 .page{
     margin: 0 auto 0;
     padding: 0;
-    /* background-image: url(../images/SvetlyFon.jpeg); */
     background-color:#faebd7;
     background-size: cover;
     position: relative;
+    max-width: 1920px;
 }
 .header__logo-image{
     width: 100px;
@@ -404,10 +403,26 @@
   }
   @media screen and (max-width: 530px) {
     .catalog{
-        grid-template-rows: repeat(10, 1fr);
-        grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px 40px;
+      }
+    .catalog__item{
+        width: 160px;
+        height: 184px;
     }
   }
+  @media screen and (max-width: 390px) {
+    .catalog{
+        gap: 10px;
+    }
+    .catalog__item{
+        width: 128px;
+        height: 148px;
+        gap: 10px;
+    }
+    .catalog__image{
+        width: 84px;
+        height: 84px;
+    }}
   .popup{
     margin: 0;
     margin: 0;
