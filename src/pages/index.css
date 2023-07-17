@@ -476,13 +476,8 @@
   }
   @media screen and (max-width: 1250px) {
     .popup__image{
-        width: 800px;
+        width: 700px;
      }
-    }
-  @media screen and (max-width: 1000px) {
-    .popup__image{
-            width: 700px;
-        }
     }
     @media screen and (max-width: 800px) {
         .popup__image{
