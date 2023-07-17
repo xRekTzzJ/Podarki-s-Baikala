@@ -474,7 +474,7 @@
     opacity: 1;
     visibility: visible;
   }
-  @media screen and (max-width: 1250px) {
+  @media screen and (max-width: 1280px) {
     .popup__image{
         width: 700px;
      }
