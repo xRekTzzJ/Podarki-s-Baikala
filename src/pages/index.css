@@ -532,6 +532,7 @@
         cursor: pointer;
         border-radius: 30px;
         width: 100%;
+        min-width: 800px;
         height: 600px;
         object-fit: cover;
     }
@@ -542,6 +543,9 @@
         max-height: 100%;
         position: relative;
         overflow: hidden;
+        display: flex;
+        justify-self: center;
+        align-self: center;
     }
     .main__image-expand{
         position: absolute;
@@ -580,6 +584,10 @@
     .main__text:first-child{
         margin: 10px 10px 0 10px;
     }
+    .main__text-container{
+        margin: 0;
+        padding: 0;
+    }
     .how-find-us{
         margin: 30px 50px 50px;
         padding: 0;
@@ -602,4 +610,33 @@
         height: 100%;
         width: 100%;
         border: 1px solid #d3d3d3;;
+    }
+    @media screen and (max-width: 1105px) {
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 880px) {
+        .main__image{
+            width: 100%;
+            height: 400px;
+            min-width: 533px;
+        }
+    }
+    @media screen and (max-width: 590px) {
+        .main__image{
+            width: 100%;
+            height: 100%;
+            min-width: 0;
+        }
+    }
+    @media screen and (max-width: 415px) {
+        .main{
+            gap: 10px;
+        }
+        .main__text{
+            font-size: 16px;
+            list-style: 16px;
+        }
     }
