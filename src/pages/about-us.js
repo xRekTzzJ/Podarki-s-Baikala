@@ -23,4 +23,3 @@ leftExpand.addEventListener('click', () => {
     mainImage.src = images[numberOfMainImage]
 })
 popupWithImage.setEventListeners();
-const fixGitHub = 'sss';
