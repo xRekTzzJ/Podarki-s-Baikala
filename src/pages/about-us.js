@@ -1,7 +1,7 @@
 import { Popup } from '../components/Popup.js';
 
 const popupWithImage = new Popup('.popup_main');
-const images =["../images/prospekt-2.jpeg", "../images/prospekt-shop.jpeg", "../images/блокнот.jpeg",];
+const images =["../images/prospekt-2.jpeg", "../images/prospekt-from-door.jpeg", "../images/prospekt-shop.jpeg",];
 let mainImage = document.querySelector('.main__image');
 mainImage.src = images[0];
 mainImage.addEventListener('click', () => {

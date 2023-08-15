@@ -643,3 +643,6 @@
             list-style: 16px;
         }
     }
+    .hidden{
+        display: none;
+    }
