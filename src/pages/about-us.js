@@ -14,12 +14,25 @@ rightExpand.addEventListener('click', () => {
     if(numberOfMainImage < images.length-1){
         numberOfMainImage++
     }
+    if(numberOfMainImage !== 0){
+        leftExpand.classList.remove('hidden')
+    }
+    if(numberOfMainImage === images.length-1){
+        rightExpand.classList.add('hidden')
+    }
     mainImage.src = images[numberOfMainImage]
 })
 leftExpand.addEventListener('click', () => {
     if(numberOfMainImage > 0){
         numberOfMainImage--
     }
+    if(numberOfMainImage === 0){
+        leftExpand.classList.add('hidden')
+    }
+    rightExpand.classList.remove('hidden')
     mainImage.src = images[numberOfMainImage]
 })
+if(numberOfMainImage === 0){
+    leftExpand.classList.add('hidden')
+}
 popupWithImage.setEventListeners();
