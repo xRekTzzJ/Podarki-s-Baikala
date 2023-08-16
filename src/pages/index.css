@@ -630,6 +630,7 @@
         .main{
             display: flex;
             flex-direction: column;
+            margin: 30px 15px 0
         }
         .main__image-container{
             max-width: 50%;
@@ -644,6 +645,11 @@
     @media screen and (max-width: 850px) {
         .main__image-container{
             max-width: 70%;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .main__image-container{
+            max-width: 100%;
         }
     }
     @media screen and (max-width: 415px) {
