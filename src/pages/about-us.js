@@ -3,10 +3,10 @@ import { Popup } from '../components/Popup.js';
 const popupWithImage = new Popup('.popup_main');
 const images =["../images/prospekt-2.jpeg", "../images/prospekt-from-door.jpeg", "../images/prospekt-shop.jpeg",];
 let mainImage = document.querySelector('.main__image');
-const popupImage = document.querySelector('.popup__image')
+const popupImage = document.querySelector('.popup__image');
+let numberOfMainImage = 0;
 mainImage.src = images[0];
 popupImage.src = images[0]
-let a;
 mainImage.addEventListener('click', () => {
     popupWithImage.open(mainImage.src)
 })
@@ -34,11 +34,10 @@ function prevImage(){
         leftPopupExpand.classList.add('hidden')
     }
     rightExpand.classList.remove('hidden')
-    leftPopupExpand.classList.remove('hidden')
+    rightPopupExpand.classList.remove('hidden')
     popupImage.src = images[numberOfMainImage]
     mainImage.src = images[numberOfMainImage]
 }
-let numberOfMainImage = 0;
 const rightExpand = document.querySelector('.main__image-expand_right');
 const leftExpand = document.querySelector('.main__image-expand_left');
 const leftPopupExpand = document.querySelector('.popup__expand_left');
