@@ -827,10 +827,32 @@
     .main-catalog{
         margin: 50px 100px;
         padding: 0;
+        display: flex;
+        flex-direction: column;
     }
     .main-catlog__item:hover{
         opacity: .8;
     }
     .main-catlog__item:hover .main-catlog__item-title{
         color: #7b4e0a;
+    }
+    @media screen and (max-width: 800px){
+        .main-catalog__items-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media screen and (max-width: 670px){
+        .main-catalog{
+            margin: 50px 50px;
+        }
+    }
+    @media screen and (max-width: 570px){
+        .main-catalog{
+            margin: 50px 25px;
+        }
+    }
+    @media screen and (max-width: 520px){
+        .main-catalog__items-container{
+            grid-template-columns: repeat(2, 200px);
+        }
     }
