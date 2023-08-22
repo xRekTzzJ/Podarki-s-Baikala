@@ -856,3 +856,14 @@
             grid-template-columns: repeat(2, 200px);
         }
     }
+    @media screen and (max-width: 500px){
+        .main-catalog__items-container{
+            grid-template-columns: repeat(1, 280px);
+        }
+        .main-catalog__items-container{
+            justify-content: center;
+        }
+        .main-catalog{
+            margin: 30px 25px;
+        }
+    }

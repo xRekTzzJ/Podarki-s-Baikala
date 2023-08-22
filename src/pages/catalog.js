@@ -46,16 +46,24 @@ const products = [
     name: 'Этно-панно'
     },
     {link: '#',
-    image: "../images/подушка.jpeg",
-    name: 'Подушка'
+    image: "../images/подушка.JPG",
+    name: 'Подушки'
     },
     {link: '#',
     image: "../images/доска.jpeg",
-    name: 'Доска'
+    name: 'Доски'
     },
     {link: '#',
     image: "../images/тарелка.jpeg",
-    name: 'Тарелка'
+    name: 'Керамические тарелки'
+    },
+    {link: '#',
+    image: "../images/копилка.JPG",
+    name: 'Копилки'
+    },
+    {link: '#',
+    image: "../images/флешка.JPG",
+    name: 'Флешки'
     },
 ]
 const productsList = new Section({
