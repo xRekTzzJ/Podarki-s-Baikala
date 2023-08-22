@@ -50,4 +50,12 @@ if(numberOfMainImage === 0){
     leftExpand.classList.add('hidden')
     leftPopupExpand.classList.add('hidden')
 }
+rightExpand.addEventListener('click', nextImage)
+leftExpand.addEventListener('click', prevImage)
+leftPopupExpand.addEventListener('click', prevImage)
+rightPopupExpand.addEventListener('click', nextImage)
+if(numberOfMainImage === 0){
+    leftExpand.classList.add('hidden')
+    leftPopupExpand.classList.add('hidden')
+}
 popupWithImage.setEventListeners();

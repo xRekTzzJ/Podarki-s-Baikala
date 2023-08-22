@@ -884,6 +884,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .prduct__left-side{
     margin: 0;
@@ -942,4 +943,12 @@
 }
 .product__mini-image_active{
     border-bottom: 2px solid #ff0000;
+}
+.product__image-count{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .2);
 }
