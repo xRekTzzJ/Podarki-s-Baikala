@@ -41,6 +41,22 @@ const products = [
     image: "../images/свечи.jpeg",
     name: 'Свечи'
     },
+    {link: '#',
+    image: "../images/этно-панно.jpeg",
+    name: 'Этно-панно'
+    },
+    {link: '#',
+    image: "../images/подушка.jpeg",
+    name: 'Подушка'
+    },
+    {link: '#',
+    image: "../images/доска.jpeg",
+    name: 'Доска'
+    },
+    {link: '#',
+    image: "../images/тарелка.jpeg",
+    name: 'Тарелка'
+    },
 ]
 const productsList = new Section({
     items: products,
@@ -48,5 +64,5 @@ const productsList = new Section({
         const product = new Product(products, '.product');
         productsList.addItem(product.generateProduct())
     }
-}, '.main-catalog')
+}, '.main-catalog__items-container')
 productsList.renderItems();
