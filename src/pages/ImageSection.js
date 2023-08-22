@@ -1,4 +1,4 @@
-export class Section{
+export class ImageSection{
     constructor({items, renderer}, containerSelector){
         this._renderer = renderer;
         this._rendererItems = items;
