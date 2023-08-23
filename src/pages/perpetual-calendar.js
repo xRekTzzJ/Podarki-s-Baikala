@@ -1,36 +1,46 @@
 import { Popup } from '../components/Popup.js';
-import { Image } from './Image.js';
-import { ImageSection } from './ImageSection.js';
+// import { Image } from './Image.js';
+// import { ImageSection } from './ImageSection.js';
 const imageList = [
     {src: '../images/календарь.jpeg',
     isActive: true,
+    number: 1,
     },
     {src: '../images/календарь продукт.jpg',
     isActive: false,
+    number: 2,
     },
     {src: '../images/календарь.jpeg',
     isActive: false,
+    number: 3,
     },
     {src: '../images/календарь продукт.jpg',
     isActive: false,
+    number: 4,
     },
     {src: '../images/календарь.jpeg',
     isActive: false,
+    number: 5,
     },
     {src: '../images/календарь продукт.jpg',
     isActive: false,
+    number: 6,
     },
     {src: '../images/календарь.jpeg',
     isActive: false,
+    number: 7,
     },
     {src: '../images/календарь продукт.jpg',
     isActive: false,
+    number: 8,
     },
     {src: '../images/календарь.jpeg',
     isActive: false,
+    number: 9,
     },
     {src: '../images/календарь продукт.jpg',
     isActive: false,
+    number: 10,
     },
 ];
 const popupImage = document.querySelector('.popup__image');
@@ -42,14 +52,14 @@ mainImage.addEventListener('click', () => {
     popupWithImage.open(mainImage.src)
 })
 popupWithImage.setEventListeners();
-const miniImageList = new ImageSection({
-    items: imageList,
-    renderer: (imageList) => {
-        const image = new Image(imageList, '.image');
-        miniImageList.addItem(image.generateProduct())
-    }
-}, '.product__mini-image-container')
-miniImageList.renderItems();
+// const miniImageList = new ImageSection({
+//     items: imageList,
+//     renderer: (imageList) => {
+//         const image = new Image(imageList, '.image');
+//         miniImageList.addItem(image.generateProduct())
+//     }
+// }, '.product__mini-image-container')
+// miniImageList.renderItems();
 function nextImage(){
     if(numberOfMainImage < imageList.length-1){
         numberOfMainImage++
@@ -68,29 +78,37 @@ function nextImage(){
 }
 function prevImage(){
     if(numberOfMainImage > 0){
-        numberOfMainImage--
+        numberOfMainImage--;
     }
     if(numberOfMainImage === 0){
-        leftExpand.classList.add('hidden')
-        leftPopupExpand.classList.add('hidden')
+        leftExpand.classList.add('hidden');
+        leftPopupExpand.classList.add('hidden');
     }
-    countOfItem.textContent = `${numberOfMainImage+1}/${imageList.length}`
-    rightExpand.classList.remove('hidden')
-    rightPopupExpand.classList.remove('hidden')
-    popupImage.src = imageList[numberOfMainImage].src
-    mainImage.src = imageList[numberOfMainImage].src
+    countOfItem.textContent = `${numberOfMainImage+1}/${imageList.length}`;
+    rightExpand.classList.remove('hidden');
+    rightPopupExpand.classList.remove('hidden');
+    popupImage.src = imageList[numberOfMainImage].src;
+    mainImage.src = imageList[numberOfMainImage].src;
 }
 const rightExpand = document.querySelector('.main__image-expand_right');
 const leftExpand = document.querySelector('.main__image-expand_left');
 const leftPopupExpand = document.querySelector('.popup__expand_left');
 const rightPopupExpand = document.querySelector('.popup__expand_right');
-rightExpand.addEventListener('click', nextImage)
-leftExpand.addEventListener('click', prevImage)
-leftPopupExpand.addEventListener('click', prevImage)
-rightPopupExpand.addEventListener('click', nextImage)
+rightExpand.addEventListener('click', nextImage);
+leftExpand.addEventListener('click', prevImage);
+leftPopupExpand.addEventListener('click', prevImage);
+rightPopupExpand.addEventListener('click', nextImage);
 if(numberOfMainImage === 0){
-    leftExpand.classList.add('hidden')
-    leftPopupExpand.classList.add('hidden')
+    leftExpand.classList.add('hidden');
+    leftPopupExpand.classList.add('hidden');
 }
 let countOfItem = document.querySelector('.product__image-count');
 countOfItem.textContent = `${numberOfMainImage + 1}/${imageList.length}`
+
+document.addEventListener('keydown', (evt) => {
+    if(evt.key === 'ArrowRight'){
+        nextImage();
+    } else if(evt.key === 'ArrowLeft'){
+        prevImage();
+    }
+})
