@@ -59,3 +59,10 @@ if(numberOfMainImage === 0){
     leftPopupExpand.classList.add('hidden')
 }
 popupWithImage.setEventListeners();
+document.addEventListener('keydown', (evt) => {
+    if(evt.key === 'ArrowRight'){
+        nextImage();
+    } else if(evt.key === 'ArrowLeft'){
+        prevImage();
+    }
+})
