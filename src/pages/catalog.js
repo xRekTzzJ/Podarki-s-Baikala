@@ -5,7 +5,7 @@ const products = [
     image: "../images/календарь 1.jpeg",
     name: 'Вечные календари'
     },
-    {link: '#',
+    {link: './phone-stand.html',
     image: "../images/подставка.jpeg",
     name: 'Подставки под телефон'
     },
