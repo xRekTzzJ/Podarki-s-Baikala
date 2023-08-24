@@ -409,6 +409,9 @@
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: repeat(2, 1fr);
     }
+    .catalog__item{
+        font-size: 14px;
+    }
     .footer{
         flex-direction: column;
         padding: 10px 0;
