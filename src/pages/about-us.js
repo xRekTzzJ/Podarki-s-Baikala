@@ -1,6 +1,6 @@
 import { Popup } from '../components/Popup.js';
 const popupWithImage = new Popup('.popup_main');
-const images =["../images/prospekt-2.jpeg", "../images/prospekt-from-door.jpeg", "../images/prospekt-shop.jpeg",];
+const images =["../images/prospekt-2.jpeg", "../images/prospekt-from-door.jpeg", "../images/prospekt-shop.jpeg", '../images/баннер.jpeg'];
 let mainImage = document.querySelector('.main__image');
 const popupImage = document.querySelector('.popup__image');
 let numberOfMainImage = 0;

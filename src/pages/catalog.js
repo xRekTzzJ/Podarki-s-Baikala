@@ -2,7 +2,7 @@ import { Product } from "./Product.js"
 import { Section } from "./Section.js";
 const products = [
     {link: './perpetual-calendar.html',
-    image: "../images/календарь.jpeg",
+    image: "../images/календарь 1.jpeg",
     name: 'Вечные календари'
     },
     {link: '#',
