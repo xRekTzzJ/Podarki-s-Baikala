@@ -9,15 +9,15 @@ const products = [
     image: "../images/подставка.jpeg",
     name: 'Подставки под телефон'
     },
-    {link: '#',
+    {link: './notebooks-catalog.html',
     image: "../images/блокнот.jpeg",
     name: 'Блокноты'
     },
-    {link: '#',
+    {link: './keychains-catalog.html',
     image: "../images/brelok.jpg",
     name: 'Брелоки'
     },
-    {link: '#',
+    {link: './panels.html',
     image: "../images/panno.jpeg",
     name: 'Панно'
     },
@@ -54,7 +54,7 @@ const products = [
     name: 'Доски'
     },
     {link: '#',
-    image: "../images/тарелка.jpeg",
+    image: "../images/тарелка.jpg",
     name: 'Керамические тарелки'
     },
     {link: '#',
