@@ -2,10 +2,16 @@ import { Popup } from '../components/Popup.js';
 // import { Image } from './Image.js';
 // import { ImageSection } from './ImageSection.js';
 const imageList = [
-    {src: '../images/крафтоый блокнот 1.jpeg',
+    {src: '../images/крафтовый блокнот 1.jpeg',
     },
     {src: '../images/крафтовый блокнот 2.jpeg',
-},
+    },
+    {src: '../images/крафтовый блокнот 3.jpeg',
+    },
+    {src: '../images/крафтовый блокнот 4.jpeg',
+    },
+    {src: '../images/крафтовый блокнот 5.jpeg',
+    },
 ];
 const popupImage = document.querySelector('.popup__image');
 let numberOfMainImage = 0;

@@ -6,7 +6,7 @@ const products = [
     name: 'Вечные календари'
     },
     {link: './phone-stand.html',
-    image: "../images/подставка.jpeg",
+    image: "../images/подставка главная.jpg",
     name: 'Подставки под телефон'
     },
     {link: './notebooks-catalog.html',
@@ -21,15 +21,11 @@ const products = [
     image: "../images/panno.jpeg",
     name: 'Панно'
     },
-    {link: '#',
+    {link: './cups-catalog.html',
     image: "../images/кружка.jpeg",
     name: 'Кружки'
     },
-    {link: '#',
-    image: "../images/украшения.jpeg",
-    name: 'Украшения'
-    },
-    {link: '#',
+    {link: './pendant.html',
     image: "../images/подвеска.jpeg",
     name: 'Подвески в машину'
     },
@@ -41,29 +37,33 @@ const products = [
     image: "../images/свечи.jpeg",
     name: 'Свечи'
     },
-    {link: '#',
+    {link: './ethno-panno-catalog.html',
     image: "../images/этно-панно.jpeg",
     name: 'Этно-панно'
     },
-    {link: '#',
+    {link: './pillow.html',
     image: "../images/подушка.JPG",
     name: 'Подушки'
     },
-    {link: '#',
-    image: "../images/доска.jpeg",
+    {link: './board.html',
+    image: "../images/доска 1.jpeg",
     name: 'Доски'
     },
     {link: '#',
     image: "../images/тарелка.jpg",
     name: 'Керамические тарелки'
     },
-    {link: '#',
-    image: "../images/копилка.JPG",
+    {link: './banks-catalog.html',
+    image: "../images/копилка.jpeg",
     name: 'Копилки'
     },
-    {link: '#',
-    image: "../images/флешка.JPG",
+    {link: './flash-drive.html',
+    image: "../images/флешка.jpeg",
     name: 'Флешки'
+    },
+    {link: './wineglass.html',
+    image: "../images/бокал 1.jpeg",
+    name: 'Бокалы'
     },
 ]
 const productsList = new Section({

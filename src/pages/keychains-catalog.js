@@ -10,12 +10,12 @@ const products = [
     name: 'Брелоки кожа/дерево'
     },
     {link: '#',
-    image: "../images/блокнот.jpeg",
-    name: 'Кожанные мини брелки'
+    image: "../images/кожанный бребок мини.jpeg",
+    name: 'Кожаные мини-брелоки'
     },
-    {link: '#',
-    image: "../images/блокнот.jpeg",
-    name: 'Кожанные брелоки'
+    {link: './nord-baikal-keychains.html',
+    image: "../images/кожанный брелок.jpeg",
+    name: 'Кожаные брелоки'
     },
 ]
 const productsList = new Section({

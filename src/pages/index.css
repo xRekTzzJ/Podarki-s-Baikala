@@ -239,7 +239,7 @@
     font-size: 20px;
     line-height: 19px;
     width: 200px;
-    height: 230px;
+    min-height: 250px;
     background-image: url(../images/fon.jpg);
     display: flex;
     flex-direction: column;
@@ -260,7 +260,7 @@
 }
 .catalog__image{
     width: 140px;
-    height: 110px;
+    height: 140px;
     margin: 0;
     padding: 0;
     object-fit: cover;
@@ -424,7 +424,7 @@
       }
     .catalog__item{
         width: 160px;
-        height: 184px;
+        min-height: 220px;
         gap: 10px;
     }
   }
@@ -434,7 +434,7 @@
     }
     .catalog__item{
         width: 128px;
-        height: 148px;
+        min-height: 148px;
         gap: 10px;
     }
     .catalog__image{
