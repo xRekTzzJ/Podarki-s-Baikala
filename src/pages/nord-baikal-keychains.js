@@ -1,6 +1,4 @@
 import { Popup } from '../components/Popup.js';
-// import { Image } from './Image.js';
-// import { ImageSection } from './ImageSection.js';
 const imageList = [
     {src: '../images/кожанный брелок.jpeg',
     },
@@ -21,3 +19,6 @@ rightExpand.classList.add('hidden');
 leftExpand.classList.add('hidden')
 leftPopupExpand.classList.add('hidden')
 rightPopupExpand.classList.add('hidden')
+let countOfItem = document.querySelector('.product__image-count');
+let numberOfMainImage = 0;
+countOfItem.textContent = `${numberOfMainImage + 1}/${imageList.length}`

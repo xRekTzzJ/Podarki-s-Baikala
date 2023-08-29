@@ -2,11 +2,11 @@ import { Product } from "./Product.js"
 import { Section } from "./Section.js";
 const products = [
     {link: './perpetual-calendar.html',
-    image: "../images/календарь 1.jpeg",
+    image: "../images/календарь 2.jpeg",
     name: 'Вечные календари'
     },
     {link: './phone-stand.html',
-    image: "../images/подставка главная.jpg",
+    image: "../images/подставка 1.jpeg",
     name: 'Подставки под телефон'
     },
     {link: './notebooks-catalog.html',
@@ -29,8 +29,8 @@ const products = [
     image: "../images/подвеска.jpeg",
     name: 'Подвески в машину'
     },
-    {link: '#',
-    image: "../images/чай.jpeg",
+    {link: './tea-catalog.html',
+    image: "../images/чай тайга сибири.jpeg",
     name: 'Чай'
     },
     {link: '#',
@@ -64,6 +64,10 @@ const products = [
     {link: './wineglass.html',
     image: "../images/бокал 1.jpeg",
     name: 'Бокалы'
+    },
+    {link: './wineglass.html',
+    image: "../images/подарочные мешочки.jpeg",
+    name: 'Подарочные мешочки'
     },
 ]
 const productsList = new Section({

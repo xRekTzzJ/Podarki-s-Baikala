@@ -1,9 +1,5 @@
 import { Popup } from '../components/Popup.js';
-// import { Image } from './Image.js';
-// import { ImageSection } from './ImageSection.js';
 const imageList = [
-    {src: '../images/подставка главная.jpg',
-    },
     {src: '../images/подставка 1.jpeg',
     },
     {src: '../images/подставка 2.jpeg',
@@ -18,12 +14,6 @@ const imageList = [
     },
     {src: '../images/подставка 7.jpeg',
     },
-    {src: '../images/подставка 8.jpeg',
-    },
-    {src: '../images/подставка 9.jpeg',
-    },
-    {src: '../images/подставка 10.jpeg',
-    }, 
 ];
 const popupImage = document.querySelector('.popup__image');
 let numberOfMainImage = 0;
@@ -34,14 +24,6 @@ mainImage.addEventListener('click', () => {
     popupWithImage.open(mainImage.src)
 })
 popupWithImage.setEventListeners();
-// const miniImageList = new ImageSection({
-//     items: imageList,
-//     renderer: (imageList) => {
-//         const image = new Image(imageList, '.image');
-//         miniImageList.addItem(image.generateProduct())
-//     }
-// }, '.product__mini-image-container')
-// miniImageList.renderItems();
 function nextImage(){
     if(numberOfMainImage < imageList.length-1){
         numberOfMainImage++

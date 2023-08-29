@@ -1,6 +1,4 @@
 import { Popup } from '../components/Popup.js';
-// import { Image } from './Image.js';
-// import { ImageSection } from './ImageSection.js';
 const imageList = [
     {src: '../images/бокал 1.jpeg',
     },
@@ -22,14 +20,6 @@ mainImage.addEventListener('click', () => {
     popupWithImage.open(mainImage.src)
 })
 popupWithImage.setEventListeners();
-// const miniImageList = new ImageSection({
-//     items: imageList,
-//     renderer: (imageList) => {
-//         const image = new Image(imageList, '.image');
-//         miniImageList.addItem(image.generateProduct())
-//     }
-// }, '.product__mini-image-container')
-// miniImageList.renderItems();
 function nextImage(){
     if(numberOfMainImage < imageList.length-1){
         numberOfMainImage++

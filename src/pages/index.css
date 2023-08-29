@@ -15,7 +15,7 @@
 .page{
     margin: 0 auto 0;
     padding: 0;
-    background-color:#faebd7;
+    background-color:#fceedc;
     background-size: cover;
     position: relative;
     max-width: 1920px;
@@ -253,6 +253,7 @@
     align-items: center;
     justify-self: center;
     box-shadow: 1px 1px 2px 0 rgba(0,0,0,.16);
+    object-fit: cover;
 }
 .catalog__item:hover{
     opacity: .9;

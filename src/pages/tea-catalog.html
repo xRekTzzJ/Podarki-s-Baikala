@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../pages/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./tea-catalog.js" defer type="module"></script>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon" />
+    <title>Чай</title>
+  </head>
+  <body class="body">
+    <div class="page">
+      <div class="header">
+        <a href="../../index.html" class="header__logo">
+          <img
+            src="../images/logo.svg"
+            alt="Логотип."
+            class="header__logo-image"
+          />
+        </a>
+        <nav class="header__navigation">
+          <a href="../../index.html" class="header__button-text">Главная</a>
+          <a href="./catalog.html" class="header__button-text">Каталог</a>
+          <a
+            href="./about-us.html"
+            class="header__button-text header__button-text_active"
+            >О нас</a
+          >
+        </nav>
+      </div>
+      <section class="main-catalog">
+        <h1 class="main-catalog__title">Каталог товаров</h1>
+        <div class="main-catalog__items-container">
+          <template class="product" id="product">
+            <a href="" class="main-catlog__item">
+              <img alt="Изобраение товара" class="main-catalog__item-image" />
+              <h2 class="main-catlog__item-title"></h2>
+            </a>
+          </template>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__info">
+          <h3 class="footer__info-title">Магазин</h3>
+          <div class="footer__operating">
+            <img
+              src="../images/time.svg"
+              alt=""
+              class="footer__operating-image"
+            />
+            <span class="footer__operating-text"
+              >Режим работы: с 10:00 до 19:00</span
+            >
+          </div>
+          <div class="footer__phone">
+            <img src="../images/phone.svg" alt="" class="footer__phone-image" />
+            <span class="footer__phone-number">+7 (914) 838-78-30</span>
+          </div>
+        </div>
+        <div class="footer__copyright">© 2023 "Prospekt"</div>
+      </footer>
+    </div>
+  </body>
+</html>
