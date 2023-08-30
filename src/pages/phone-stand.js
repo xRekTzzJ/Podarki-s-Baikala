@@ -12,8 +12,6 @@ const imageList = [
     },
     {src: '../images/подставка 6.jpeg',
     },
-    {src: '../images/подставка 7.jpeg',
-    },
 ];
 const popupImage = document.querySelector('.popup__image');
 let numberOfMainImage = 0;

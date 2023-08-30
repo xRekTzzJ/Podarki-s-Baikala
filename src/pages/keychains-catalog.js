@@ -9,7 +9,7 @@ const products = [
     image: "../images/brelok.jpg",
     name: 'Брелоки кожа/дерево'
     },
-    {link: '#',
+    {link: './nord-baikal-keychains-mini.html',
     image: "../images/кожанный бребок мини.jpeg",
     name: 'Кожаные мини-брелоки'
     },

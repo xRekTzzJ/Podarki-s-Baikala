@@ -9,8 +9,8 @@ const products = [
     image: "../images/медвежья услада.jpeg",
     name: 'Медвежья услада'
     },
-    {link: '#',
-    image: "../images/Чай-Егерь.jpg",
+    {link: './baikalskiy.html',
+    image: "../images/чай Байкальский.jpeg",
     name: 'Байкальский'
     },
     {link: './klubnichniy-kompliment.html',

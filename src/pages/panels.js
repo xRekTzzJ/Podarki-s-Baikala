@@ -4,6 +4,12 @@ const imageList = [
     },
     {src: '../images/panno 1.jpeg',
     },  
+    {src: '../images/panno 2.jpeg',
+},  
+    {src: '../images/panno 3.jpeg',
+    },  
+    {src: '../images/panno 4.jpeg',
+    },   
 ];
 const popupImage = document.querySelector('.popup__image');
 let numberOfMainImage = 0;

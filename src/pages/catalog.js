@@ -65,7 +65,7 @@ const products = [
     image: "../images/бокал 1.jpeg",
     name: 'Бокалы'
     },
-    {link: './wineglass.html',
+    {link: './gift-bags.html',
     image: "../images/подарочные мешочки.jpeg",
     name: 'Подарочные мешочки'
     },
