@@ -26,19 +26,19 @@ const products = [
     name: 'Витаминный'
     },
     {link: './dikaya-yagoda.html',
-    image: "../images/чай-Дикая-ягода.jpg",
+    image: "../../src/images/чай-дикая-ягода.jpg",
     name: 'Дикая ягода'
     },
     {link: './kedroviy-les.html',
-    image: "../images/чай-Кедровый-лес.jpg",
+    image: "../../src/images/чай-кедровый-лес.jpg",
     name: 'Кедровый лес'
     },
     {link: './taegniy.html',
-    image: "../images/чай-Таежный.jpg",
+    image: "../../src/images/Чай-Таежный.jpg",
     name: 'Таежный'
     },
     {link: './spyashiy-sayan.html',
-    image: "../images/чай-Спящий-Саян.jpg",
+    image: "../../src/images/чай-спящий-саян.jpg",
     name: 'Спящий Саян'
     },
     {link: './sibirskoe-leto.html',
