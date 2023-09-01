@@ -29,9 +29,9 @@ const products = [
     image: "../images/подвеска.jpeg",
     name: 'Подвески в машину'
     },
-    {link: './tea-catalog.html',
-    image: "../images/чай тайга сибири.jpeg",
-    name: 'Чай'
+    {link: './gastronom.html',
+    image: "../images/Варенье-из-брусники-с-кедровым-орехом-125-гр-100-мл.jpg",
+    name: 'Гастрономические подарки'
     },
     {link: '#',
     image: "../images/свечи.jpeg",

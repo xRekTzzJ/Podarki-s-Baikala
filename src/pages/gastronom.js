@@ -1,17 +1,17 @@
 import { Product } from "./Product.js"
 import { Section } from "./Section.js";
 const products = [
-    {link: './taiga-sibiri-catalog.html',
+    {link: './tea-catalog.html',
     image: "../images/чай тайга сибири.jpeg",
-    name: 'Чай "Тайга сибири"'
+    name: 'Чай'
     },
-    {link: './ivan-chai-catalog.html',
-    image: "../images/мини иван-чай с цедрой.jpeg",
-    name: 'Иван-чай с Байкальских полей'
+    {link: './varenie-catalog.html',
+    image: "../images/Варенье-из-брусники-с-кедровым-орехом-125-гр-100-мл.jpg",
+    name: 'Варенье'
     },
-    {link: './puer-catalog.html',
-    image: "../images/Сибирский-пуэр-кедровый-96-гр.jpg",
-    name: 'Сибирский пуэр'
+    {link: './syrops-catalog.html',
+    image: "../images/сиропы.jpg",
+    name: 'Сиропы'
     },
 ]
 const productsList = new Section({
