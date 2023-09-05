@@ -33,10 +33,6 @@ const products = [
     image: "../images/Варенье-из-брусники-с-кедровым-орехом-125-гр-100-мл.jpg",
     name: 'Гастрономические подарки'
     },
-    {link: '#',
-    image: "../images/свечи.jpeg",
-    name: 'Свечи'
-    },
     {link: './ethno-panno-catalog.html',
     image: "../images/этно-панно.jpeg",
     name: 'Этно-панно'
@@ -48,10 +44,6 @@ const products = [
     {link: './board.html',
     image: "../images/доска 1.jpeg",
     name: 'Доски'
-    },
-    {link: '#',
-    image: "../images/тарелка.jpg",
-    name: 'Керамические тарелки'
     },
     {link: './banks-catalog.html',
     image: "../images/копилка.jpeg",
