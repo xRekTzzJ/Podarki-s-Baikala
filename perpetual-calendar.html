@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./src/pages/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prospekt Studio</title>
-    <script src="./src/pages/index.js" defer type="module"></script>
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <script
+      src="./src/pages/perpetual-calendar.js"
+      defer
+      type="module"
+    ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
     <link
       rel="icon"
       type="image/png"
@@ -20,6 +27,7 @@
       href="./favicon-16x16.png"
     />
     <link rel="manifest" href="./site.webmanifest" />
+    <title>Вечный календарь</title>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
       (function (m, e, t, r, i, k, a) {
@@ -83,20 +91,57 @@
           >
         </nav>
       </header>
-      <div class="about-us">
-        <img class="about-us__image" />
-        <p class="about-us__text">
-          Prospekt Studio предлагает вам в память о важном событии или
-          незабываемой поездке купить сувениры, взглянув на которые вы еще не
-          раз вспомните те моменты, что произвели на вас сильное впечатление.
-          Обычно такие предметы приобретают не только для себя, но и в подарок,
-          и если вы ничего не знаете об увлечениях и привычках того, кому хотели
-          бы сделать сюрприз, попросите совета у консультанта. Он поможет
-          подобрать то, что не станет просто украшением интерьера, но и полезным
-          аксессуаром, которым одариваемый сможет не раз воспользоваться.
-          <a href="./about-us.html" class="about-us__button">О нас</a>
-        </p>
-      </div>
+      <section class="product">
+        <div class="product__info-container">
+          <div class="prduct__left-side">
+            <div class="product__image-container">
+              <span class="product__image-count"></span>
+              <img alt="" class="product__image" />
+              <img
+                src="./src/images/Expand.svg"
+                class="main__image-expand main__image-expand_right"
+                style="right: 20px"
+              />
+              <img
+                src="./src/images/Expand.svg"
+                class="main__image-expand main__image-expand_left"
+                style="left: 20px"
+              />
+            </div>
+          </div>
+          <div class="prduct__right-side">
+            <div class="product__mini-image-container">
+              <template class="image">
+                <img alt="Изображение товара." class="product__mini-image" />
+              </template>
+            </div>
+            <div class="product__name-and-price">
+              <h2 class="product__title">Вечный календарь</h2>
+              <h3 class="product__price">1800₽</h3>
+            </div>
+            <div class="product__text-container">
+              <p class="product__text">
+                Вечный календарь - это эко-подарок ручной работы. Подарок,
+                который удивляет своей оригинальностью, яркостью и качеством.
+              </p>
+              <p class="product__text">
+                Наша жизнь наполнена событиями, когда хочется оставить на память
+                что-то ценное и уникальное. Вечный календарь станет отличным
+                решением ваших проблем в поиске нужного подарка.
+              </p>
+              <p class="product__text">
+                Мы поможем вам в создании индивидуального, не похожего на другие
+                сувениры, календаря, за счет возможности нанесения любого фото и
+                надписи. Для воплощения ваших идей мы используем прямую печать
+                по дереву эко-чернилами и лазерную гравировку.
+              </p>
+              <p class="product__text">
+                Для заказа свяжитесь с нами по контактному номеру телефона.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <footer class="footer">
         <div class="footer__info">
           <h3 class="footer__info-title">Магазин</h3>
@@ -128,6 +173,16 @@
             src="./src/images/close-icon.svg"
             alt="Закрыть модальное окно."
             class="popup__close-icon"
+          />
+          <img
+            src="./src/images/Expand.svg"
+            alt=""
+            class="popup__expand popup__expand_left"
+          />
+          <img
+            src="./src/images/Expand.svg"
+            alt=""
+            class="popup__expand popup__expand_right"
           />
           <img src="" alt="Изобраение магазина." class="popup__image" />
         </div>

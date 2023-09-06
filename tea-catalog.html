@@ -2,24 +2,11 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./src/pages/index.css" />
+    <link rel="stylesheet" href="../pages/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prospekt Studio</title>
-    <script src="./src/pages/index.js" defer type="module"></script>
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./favicon-16x16.png"
-    />
-    <link rel="manifest" href="./site.webmanifest" />
+    <script src="./tea-catalog.js" defer type="module"></script>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon" />
+    <title>Чай</title>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
       (function (m, e, t, r, i, k, a) {
@@ -83,20 +70,17 @@
           >
         </nav>
       </header>
-      <div class="about-us">
-        <img class="about-us__image" />
-        <p class="about-us__text">
-          Prospekt Studio предлагает вам в память о важном событии или
-          незабываемой поездке купить сувениры, взглянув на которые вы еще не
-          раз вспомните те моменты, что произвели на вас сильное впечатление.
-          Обычно такие предметы приобретают не только для себя, но и в подарок,
-          и если вы ничего не знаете об увлечениях и привычках того, кому хотели
-          бы сделать сюрприз, попросите совета у консультанта. Он поможет
-          подобрать то, что не станет просто украшением интерьера, но и полезным
-          аксессуаром, которым одариваемый сможет не раз воспользоваться.
-          <a href="./about-us.html" class="about-us__button">О нас</a>
-        </p>
-      </div>
+      <section class="main-catalog">
+        <h1 class="main-catalog__title">Каталог товаров</h1>
+        <div class="main-catalog__items-container">
+          <template class="product" id="product">
+            <a href="" class="main-catlog__item">
+              <img alt="Изображение товара" class="main-catalog__item-image" />
+              <h2 class="main-catlog__item-title"></h2>
+            </a>
+          </template>
+        </div>
+      </section>
       <footer class="footer">
         <div class="footer__info">
           <h3 class="footer__info-title">Магазин</h3>
@@ -121,17 +105,6 @@
         </div>
         <div class="footer__copyright">© 2023 "Prospekt"</div>
       </footer>
-      <div class="popup popup_main">
-        <div class="popup__hiden-overlay"></div>
-        <div class="popup__container">
-          <img
-            src="./src/images/close-icon.svg"
-            alt="Закрыть модальное окно."
-            class="popup__close-icon"
-          />
-          <img src="" alt="Изобраение магазина." class="popup__image" />
-        </div>
-      </div>
     </div>
   </body>
 </html>
