@@ -1,6 +1,6 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/кожанный брелок.jpeg',
+    {src: './src/images/кожанный брелок.jpeg',
     },
 ];
 const popupImage = document.querySelector('.popup__image');

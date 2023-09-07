@@ -1,10 +1,10 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/подвеска.jpeg',
+    {src: './src/images/подвеска.jpeg',
     },
-    {src: '../images/подвеска 1.jpeg',
+    {src: './src/images/подвеска 1.jpeg',
     },
-    {src: '../images/подвеска 2.jpeg',
+    {src: './src/images/подвеска 2.jpeg',
     },
 ];
 const popupImage = document.querySelector('.popup__image');

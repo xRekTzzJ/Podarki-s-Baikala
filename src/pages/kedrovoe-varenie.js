@@ -1,8 +1,8 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/Кедровое-варенье-с-кедровым-орехом-120-гр 1.jpg',
+    {src: './src/images/Кедровое-варенье-с-кедровым-орехом-120-гр 1.jpg',
     },
-    {src: '../images/кедровое-варенье-с-кедровыми-орешками 2.jpg',
+    {src: './src/images/кедровое-варенье-с-кедровыми-орешками 2.jpg',
     },
 ];
 const popupImage = document.querySelector('.popup__image');

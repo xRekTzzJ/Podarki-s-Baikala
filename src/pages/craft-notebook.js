@@ -1,14 +1,14 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/крафтовый блокнот 1.jpeg',
+    {src: './src/images/крафтовый блокнот 1.jpeg',
     },
-    {src: '../images/крафтовый блокнот 2.jpeg',
+    {src: './src/images/крафтовый блокнот 2.jpeg',
     },
-    {src: '../images/крафтовый блокнот 3.jpeg',
+    {src: './src/images/крафтовый блокнот 3.jpeg',
     },
-    {src: '../images/крафтовый блокнот 4.jpeg',
+    {src: './src/images/крафтовый блокнот 4.jpeg',
     },
-    {src: '../images/крафтовый блокнот 5.jpeg',
+    {src: './src/images/крафтовый блокнот 5.jpeg',
     },
 ];
 const popupImage = document.querySelector('.popup__image');

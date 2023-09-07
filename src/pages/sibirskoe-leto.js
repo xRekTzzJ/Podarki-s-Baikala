@@ -1,6 +1,6 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/Чай-Сибирское-Лето.jpg',
+    {src: './src/images/Чай-Сибирское-Лето.jpg',
     },
 ];
 const popupWithImage = new Popup('.popup_main');

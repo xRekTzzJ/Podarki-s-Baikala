@@ -1,6 +1,6 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/Сибирь-Тибет-с-можжевельником-и-почкой-кедра-96-гр.jpg',
+    {src: './src/images/Сибирь-Тибет-с-можжевельником-и-почкой-кедра-96-гр.jpg',
     },
 ];
 const popupWithImage = new Popup('.popup_main');

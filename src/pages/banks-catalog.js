@@ -2,11 +2,11 @@ import { Product } from "./Product.js"
 import { Section } from "./Section.js";
 const products = [
     {link: './bank-365.html',
-    image: "../images/копилка.jpeg",
+    image: "./src/images/копилка.jpeg",
     name: 'Копилка "365 дней"'
     },
     {link: './mini-bank.html',
-    image: "../images/мини-копилка 1.jpeg",
+    image: "./src/images/мини-копилка 1.jpeg",
     name: 'Мини-копилка "На мечту"'
     },
 ]

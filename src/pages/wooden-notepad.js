@@ -1,14 +1,14 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/блокнот.jpeg',
+    {src: './src/images/блокнот.jpeg',
     },
-    {src: '../images/блокнот 1.jpeg',
+    {src: './src/images/блокнот 1.jpeg',
     },
-    {src: '../images/блокнот 2.jpeg',
+    {src: './src/images/блокнот 2.jpeg',
     },
-    {src: '../images/блокнот 3.jpeg',
+    {src: './src/images/блокнот 3.jpeg',
     },
-    {src: '../images/блокнот 4.jpeg',
+    {src: './src/images/блокнот 4.jpeg',
     },
 ];
 const popupImage = document.querySelector('.popup__image');

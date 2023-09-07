@@ -2,11 +2,11 @@ import { Product } from "./Product.js"
 import { Section } from "./Section.js";
 const products = [
     {link: './enamelled-cups.html',
-    image: "../images/кружка.jpeg",
+    image: "./src/images/кружка.jpeg",
     name: 'Эмалированные кружки'
     },
     {link: './ceramic-cups.html',
-    image: "../images/керамическая кружка.jpg",
+    image: "./src/images/керамическая кружка.jpg",
     name: 'Керамические кружки'
     },
 ]

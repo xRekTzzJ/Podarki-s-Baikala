@@ -1,8 +1,8 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/варенье-из-черники-125-гр 1.jpg',
+    {src: './src/images/варенье-из-черники-125-гр 1.jpg',
     },
-    {src: '../images/варенье-из-черники-125-гр 1.jpg',
+    {src: './src/images/варенье-из-черники-125-гр 2.jpg',
     },
 ];
 const popupImage = document.querySelector('.popup__image');

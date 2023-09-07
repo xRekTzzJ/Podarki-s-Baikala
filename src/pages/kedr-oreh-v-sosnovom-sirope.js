@@ -1,8 +1,8 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/Кедровый-орех-в-сосновом-сиропе-120-гр- 1.jpg',
+    {src: './src/images/Кедровый-орех-в-сосновом-сиропе-120-гр- 1.jpg',
     },
-    {src: '../images/кедровые-орешки-в-сосновом-сиропе 2.jpg',
+    {src: './src/images/кедровые-орешки-в-сосновом-сиропе 2.jpg',
     },
 ];
 const popupImage = document.querySelector('.popup__image');

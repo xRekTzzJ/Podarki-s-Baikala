@@ -1,10 +1,10 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/Сосновое варенье с кедровым орехом 120 гр 3.jpg',
+    {src: './src/images/Сосновое варенье с кедровым орехом 120 гр 3.jpg',
     },
-    {src: '../images/Сосновое варенье с кедровым орехом 120 гр 2.jpg',
+    {src: './src/images/Сосновое варенье с кедровым орехом 120 гр 2.jpg',
     },
-    {src: '../images/Сосновое варенье с кедровым орехом 120 гр 1.jpg',
+    {src: './src/images/Сосновое варенье с кедровым орехом 120 гр 1.jpg',
     },
 ];
 const popupImage = document.querySelector('.popup__image');

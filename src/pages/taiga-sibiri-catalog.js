@@ -2,27 +2,27 @@ import { Product } from "./Product.js"
 import { Section } from "./Section.js";
 const products = [
     {link: './shishkar.html',
-    image: "../images/чай тайга сибири.jpeg",
+    image: "./src/images/чай тайга сибири.jpeg",
     name: 'Шишкарь'
     },
     {link: './medvezhya-uslada.html',
-    image: "../images/медвежья услада.jpeg",
+    image: "./src/images/медвежья услада.jpeg",
     name: 'Медвежья услада'
     },
     {link: './baikalskiy.html',
-    image: "../images/чай Байкальский.jpeg",
+    image: "./src/images/чай Байкальский.jpeg",
     name: 'Байкальский'
     },
     {link: './klubnichniy-kompliment.html',
-    image: "../images/Чай-Клубничный-комплимент.jpg",
+    image: "./src/images/Чай-Клубничный-комплимент.jpg",
     name: 'Клубничный комплимент'
     },
     {link: './apelsinka.html',
-    image: "../images/чай-Апельсинка.jpg",
+    image: "./src/images/чай-Апельсинка.jpg",
     name: 'Апельсинка'
     },
     {link: './vitaminniy.html',
-    image: "../images/чай-Витаминный.jpg",
+    image: "./src/images/чай-Витаминный.jpg",
     name: 'Витаминный'
     },
     {link: './dikaya-yagoda.html',
@@ -42,11 +42,11 @@ const products = [
     name: 'Спящий Саян'
     },
     {link: './sibirskoe-leto.html',
-    image: "../images/чай-сибирское-лето.jpg",
+    image: "./src/images/чай-сибирское-лето.jpg",
     name: 'Сибирское лето'
     },
     {link: './s-shipovnikom.html',
-    image: "../images/чай-с-шиповником.jpg",
+    image: "./src/images/чай-с-шиповником.jpg",
     name: 'С шиповником'
     },
 ]

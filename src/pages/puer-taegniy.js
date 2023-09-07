@@ -1,6 +1,6 @@
 import { Popup } from '../components/Popup.js';
 const imageList = [
-    {src: '../images/Сибирский-пуэр-таёжный-плиточный.jpg',
+    {src: './src/images/Сибирский-пуэр-таёжный-плиточный.jpg',
     },
 ];
 const popupWithImage = new Popup('.popup_main');
