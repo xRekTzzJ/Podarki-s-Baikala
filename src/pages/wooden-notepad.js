@@ -10,6 +10,8 @@ const imageList = [
     },
     {src: './src/images/блокнот 4.jpeg',
     },
+    {src: './src/images/блокнот 5.jpeg',
+    },
 ];
 const popupImage = document.querySelector('.popup__image');
 let numberOfMainImage = 0;

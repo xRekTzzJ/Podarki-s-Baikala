@@ -2,7 +2,7 @@ import { Product } from "./Product.js"
 import { Section } from "./Section.js";
 const products = [
     {link: './wooden-notepad.html',
-    image: "./src/images/блокнот.jpeg",
+    image: "./src/images/блокнот 5.jpeg",
     name: 'Деревянный блокнот'
     }, 
     {link: './craft-notebook.html',

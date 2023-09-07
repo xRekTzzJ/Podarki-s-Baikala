@@ -10,7 +10,7 @@ const products = [
     name: 'Подставки под телефон'
     },
     {link: './notebooks-catalog.html',
-    image: "./src/images/блокнот.jpeg",
+    image: "./src/images/блокнот 5.jpeg",
     name: 'Блокноты'
     },
     {link: './keychains-catalog.html',
