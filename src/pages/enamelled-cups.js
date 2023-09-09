@@ -18,6 +18,8 @@ const imageList = [
     },
     {src: './src/images/эмалированная кружка 8.jpeg',
     },
+    {src: './src/images/эмалированная кружка 9.jpeg',
+},
 ];
 const popupImage = document.querySelector('.popup__image');
 let numberOfMainImage = 0;

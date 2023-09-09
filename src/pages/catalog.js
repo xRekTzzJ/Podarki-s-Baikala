@@ -61,6 +61,10 @@ const products = [
     image: "./src/images/подарочные мешочки.jpeg",
     name: 'Подарочные мешочки'
     },
+    {link: './mini-boxes.html',
+    image: "./src/images/мини-боксы.jpeg",
+    name: 'Мини-боксы'
+    },
 ]
 const productsList = new Section({
     items: products,

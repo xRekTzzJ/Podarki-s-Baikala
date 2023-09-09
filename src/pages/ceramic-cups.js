@@ -2,6 +2,8 @@ import { Popup } from '../components/Popup.js';
 const imageList = [
     {src: './src/images/керамическая кружка.jpg',
     },
+    {src: './src/images/керамическая кружка 9.jpg',
+    },
     {src: './src/images/керамическая кружка 1.jpg',
     },
     {src: './src/images/керамическая кружка 2.jpg',

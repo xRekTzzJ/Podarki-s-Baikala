@@ -813,6 +813,7 @@
         text-align: center;
         width: 100%;
         object-fit: cover;
+        object-position: center;
     }
     .main-catlog__item{
         border-radius: 8px;
