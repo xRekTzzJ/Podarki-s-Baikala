@@ -4,6 +4,10 @@ const imageList = [
     },
     {src: './src/images/мини-копилка 2.jpeg',
     },
+    {src: './src/images/мини-копилка 3.jpeg',
+    },
+    {src: './src/images/мини-копилка 4.jpeg',
+    },
 ];
 const popupImage = document.querySelector('.popup__image');
 let numberOfMainImage = 0;
