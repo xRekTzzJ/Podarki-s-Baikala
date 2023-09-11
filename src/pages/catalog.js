@@ -49,6 +49,10 @@ const products = [
     image: "./src/images/копилка.jpeg",
     name: 'Копилки'
     },
+    {link: './ceramic-plates.html',
+    image: "./src/images/тарелка 3.jpeg",
+    name: 'Керамические тарелки'
+    },
     {link: './flash-drive.html',
     image: "./src/images/флешка.jpeg",
     name: 'Флешки'
