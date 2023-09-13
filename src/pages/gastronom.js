@@ -13,6 +13,10 @@ const products = [
     image: "./src/images/сиропы.jpg",
     name: 'Сиропы'
     },
+    {link: './кедровый-орех.html',
+    image: "./src/images/ядро кедрового ореха.jpeg",
+    name: 'Ядро кедрового ореха'
+    },
 ]
 const productsList = new Section({
     items: products,
