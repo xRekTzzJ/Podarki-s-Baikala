@@ -462,7 +462,7 @@
   }
   .popup__image{
     max-width: 900px;
-    height: 600px;
+    max-height: 600px;
     margin: 0;
     padding: 0;
     z-index: 4;
@@ -516,7 +516,7 @@
   @media screen and (max-width: 1350px) {
     .popup__image{
         max-width: 700px;
-        height: 50%;
+        max-height: 500px;
      }
     }
     @media screen and (max-width: 800px) {

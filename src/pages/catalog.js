@@ -43,7 +43,7 @@ const products = [
     },
     {link: './board.html',
     image: "./src/images/доска 1.jpeg",
-    name: 'Доски'
+    name: 'Досточка подарочная кухонная'
     },
     {link: './banks-catalog.html',
     image: "./src/images/копилка.jpeg",
