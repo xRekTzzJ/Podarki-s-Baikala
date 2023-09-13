@@ -41,6 +41,10 @@ const products = [
     image: "./src/images/иван-чай дачные посиделки.jpeg",
     name: 'Иван-чай "дачные посиделки" 100г.'
     },
+    {link: './подарочный набор иван-чай.html',
+    image: "./src/images/иван-чай подарочный 1.jpeg",
+    name: 'Подарочный набор иван-чай'
+    },
 ]
 const productsList = new Section({
     items: products,
