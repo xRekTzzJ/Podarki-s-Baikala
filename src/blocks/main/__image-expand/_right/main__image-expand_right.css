@@ -1,0 +1,4 @@
+.main__image-expand_right{
+    transform:rotate(270deg);
+    right: 5px;
+}

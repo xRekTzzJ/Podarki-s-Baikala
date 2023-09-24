@@ -1,0 +1,8 @@
+.footer__order{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}

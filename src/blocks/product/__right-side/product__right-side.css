@@ -1,0 +1,11 @@
+@media screen and (max-width: 1320px){
+    .prduct__right-side{
+        width: 90%;
+        align-self: center;
+    }
+}
+@media screen and (max-width: 465px){
+    .prduct__right-side{
+        width: 95%
+    }
+}

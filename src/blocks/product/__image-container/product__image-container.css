@@ -1,0 +1,14 @@
+.product__image-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+@media screen and (max-width: 1320px){
+    .product__image-container{
+        width:  fit-content;
+        align-self: center;
+    }
+}

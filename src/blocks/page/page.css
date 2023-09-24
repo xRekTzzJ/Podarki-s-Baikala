@@ -1,0 +1,8 @@
+.page{
+    margin: 0 auto 0;
+    padding: 0;
+    background-color:#fceedc;
+    background-size: cover;
+    position: relative;
+    max-width: 1920px;
+}

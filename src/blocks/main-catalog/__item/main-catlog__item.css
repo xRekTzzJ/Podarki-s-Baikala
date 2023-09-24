@@ -1,0 +1,19 @@
+.main-catlog__item{
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.16);
+    display: inline-block;
+    height: 280px;
+    padding: 30px 30px 0;
+    position: relative;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #f5e5ce;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: .1s;
+}
+.main-catlog__item:hover{
+    opacity: .8;
+}
+.main-catlog__item:hover .main-catlog__item-title{
+    color: #7b4e0a;
+}

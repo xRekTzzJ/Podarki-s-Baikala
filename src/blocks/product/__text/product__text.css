@@ -1,0 +1,12 @@
+.product__text{
+    margin: 0;
+    padding: 0;
+}
+.product__text:last-child{
+    color: #5e1717;
+}
+@media screen and (max-width: 650px){
+    .product__text{
+        font-size: 18px;
+    }
+    }

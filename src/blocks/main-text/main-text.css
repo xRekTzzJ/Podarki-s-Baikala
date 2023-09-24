@@ -1,0 +1,26 @@
+.main__text{
+    margin: 10px 10px 0 10px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-indent: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 1400px) {
+    .main__text{
+        margin: 10px 10px 0 10px;
+        padding: 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #000000;
+        text-indent: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }

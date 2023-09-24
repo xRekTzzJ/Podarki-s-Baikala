@@ -1,0 +1,12 @@
+.main-catlog__item-title{
+    align-items: center;
+    color: #000000;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 63px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

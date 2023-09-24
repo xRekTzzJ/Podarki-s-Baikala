@@ -1,0 +1,43 @@
+.popup__image{
+    max-width: 900px;
+    max-height: 600px;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+}
+@media screen and (max-width: 1370px) {
+  .popup__image{
+      max-width: 700px;
+      max-height: 500px;
+   }
+}
+@media screen and (max-width: 800px) {
+    .popup__image{
+        max-width: 600px;
+        }
+}
+@media screen and (max-width: 650px) {
+    .popup__image{
+            max-width: 500px;
+        }
+}
+@media screen and (max-width: 550px) {
+    .popup__image{
+            max-width: 400px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .popup__image{
+            width: 350px;
+        }
+}
+@media screen and (max-width: 380px) {
+    .popup__image{
+            width: 300px;
+        }
+}
+@media screen and (max-width: 320px) {
+    .popup__image{
+            width: 250px;
+        }
+}

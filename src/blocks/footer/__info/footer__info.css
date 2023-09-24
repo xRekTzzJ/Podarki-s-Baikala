@@ -1,0 +1,7 @@
+.footer__info{
+    margin: 0;
+    padding: 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

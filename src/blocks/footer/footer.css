@@ -1,0 +1,27 @@
+.footer{
+    margin: 0;
+    padding: 0 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../../images/fon.jpg);
+    background-size: cover;
+    align-items: center;
+}
+@media screen and (max-width: 1725px) {
+    .footer{
+      padding: 0 150px; 
+    }
+  }
+@media screen and (max-width: 950px) {
+    .footer{
+        padding: 0 100px; 
+      }
+}
+@media screen and (max-width: 740px) {
+    .footer{
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 10px; 
+    }
+}

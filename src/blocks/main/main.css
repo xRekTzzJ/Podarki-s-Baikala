@@ -1,0 +1,20 @@
+.main{
+    margin: 30px 30px 0;
+    padding: 0 0 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+@media screen and (max-width: 1306px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 15px 0
+    }
+}
+@media screen and (max-width: 415px) {
+    .main{
+        gap: 10px;
+    }
+}

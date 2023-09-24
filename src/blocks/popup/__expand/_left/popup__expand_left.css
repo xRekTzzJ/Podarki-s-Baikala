@@ -1,0 +1,4 @@
+.popup__expand_left{
+    transform:rotate(90deg);
+    left: 5px;
+  }

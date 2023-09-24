@@ -1,0 +1,34 @@
+.header__button-text{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    transition: .2s;
+}
+.header__button-text:hover{
+    color: #7b4e0a;
+}
+
+@media screen and (max-width: 800px){
+    .header__button-text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 650px){
+    .header__button-text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 390px){
+    .header__button-text{
+        font-size: 14px;
+    }
+}

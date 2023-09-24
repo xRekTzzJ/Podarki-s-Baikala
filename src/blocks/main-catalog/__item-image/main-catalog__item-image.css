@@ -1,0 +1,10 @@
+.main-catalog__item-image{
+    display: inline-block;
+    height: 200px;
+    border-radius: 8px;
+    line-height: 150px;
+    text-align: center;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

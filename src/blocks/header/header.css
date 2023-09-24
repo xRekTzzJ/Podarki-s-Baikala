@@ -1,0 +1,49 @@
+.header{
+    background-image: url(../../images/fon.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0 370px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+@media screen and (max-width: 1650px) {
+    .header{
+        padding: 10px 250px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .header{
+        padding: 10px 75px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header{
+        padding: 10px 50px;
+    }
+}
+@media screen and (max-width: 850px){
+    .header{
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header{
+        gap: 20px;
+        padding: 5px 40px;
+    }
+}
+@media screen and (max-width: 650px){
+    .header{
+        padding: 0 20px;
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 390px){
+    .header{
+        padding: 0 30px;
+        gap: 10px;
+    }
+}
