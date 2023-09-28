@@ -6,27 +6,47 @@ const products = [
     name: 'Вечные календари'
     },
     {link: './phone-stand.html',
-    image: "./src/images/подставка 1.jpeg",
+    image: "./src/images/подставка 4.jpeg",
     name: 'Подставки под телефон'
     },
     {link: './notebooks-catalog.html',
-    image: "./src/images/блокнот 5.jpeg",
+    image: "./src/images/блокнот 1.jpeg",
     name: 'Блокноты'
     },
     {link: './keychains-catalog.html',
     image: "./src/images/brelok.jpg",
     name: 'Брелоки'
     },
+    {link: './cups-catalog.html',
+    image: "./src/images/керамическая кружка.jpg",
+    name: 'Кружки'
+    },
+    {link: './board.html',
+    image: "./src/images/доска 1.jpeg",
+    name: 'Досточка подарочная кухонная'
+    },
+    {link: './pillow.html',
+    image: "./src/images/подушка.JPG",
+    name: 'Подушки'
+    },
+    {link: './flash-drive.html',
+    image: "./src/images/флешка.jpeg",
+    name: 'Флешки'
+    },
+    {link: './gift-bags.html',
+    image: "./src/images/подарочные мешочки.jpeg",
+    name: 'Подарочные мешочки'
+    },
+    {link: './mini-boxes.html',
+    image: "./src/images/мини-боксы.jpeg",
+    name: 'Мини-боксы'
+    },
     {link: './panels.html',
     image: "./src/images/panno.jpeg",
     name: 'Панно'
     },
-    {link: './cups-catalog.html',
-    image: "./src/images/кружка.jpeg",
-    name: 'Кружки'
-    },
     {link: './pendant.html',
-    image: "./src/images/подвеска.jpeg",
+    image: "./src/images/подвеска 1.jpeg",
     name: 'Подвески в машину'
     },
     {link: './gastronom.html',
@@ -37,14 +57,6 @@ const products = [
     image: "./src/images/этно-панно.jpeg",
     name: 'Этно-панно'
     },
-    {link: './pillow.html',
-    image: "./src/images/подушка.JPG",
-    name: 'Подушки'
-    },
-    {link: './board.html',
-    image: "./src/images/доска 1.jpeg",
-    name: 'Досточка подарочная кухонная'
-    },
     {link: './banks-catalog.html',
     image: "./src/images/копилка.jpeg",
     name: 'Копилки'
@@ -53,21 +65,9 @@ const products = [
     image: "./src/images/тарелка 3.jpeg",
     name: 'Керамические тарелки'
     },
-    {link: './flash-drive.html',
-    image: "./src/images/флешка.jpeg",
-    name: 'Флешки'
-    },
     {link: './wineglass.html',
     image: "./src/images/бокал 1.jpeg",
     name: 'Бокалы'
-    },
-    {link: './gift-bags.html',
-    image: "./src/images/подарочные мешочки.jpeg",
-    name: 'Подарочные мешочки'
-    },
-    {link: './mini-boxes.html',
-    image: "./src/images/мини-боксы.jpeg",
-    name: 'Мини-боксы'
     },
 ]
 const productsList = new Section({
