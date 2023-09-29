@@ -1,17 +1,9 @@
 import { Product } from "./Product.js"
 import { Section } from "./Section.js";
 const products = [
-    {link: './shishkar.html',
-    image: "./src/images/чай тайга сибири.jpeg",
-    name: 'Шишкарь'
-    },
     {link: './medvezhya-uslada.html',
     image: "./src/images/медвежья услада.jpeg",
     name: 'Медвежья услада'
-    },
-    {link: './baikalskiy.html',
-    image: "./src/images/чай Байкальский.jpeg",
-    name: 'Байкальский'
     },
     {link: './klubnichniy-kompliment.html',
     image: "./src/images/Чай-Клубничный-комплимент.jpg",
@@ -48,6 +40,10 @@ const products = [
     {link: './s-shipovnikom.html',
     image: "./src/images/чай-с-шиповником.jpg",
     name: 'С шиповником'
+    },
+    {link: './сугрев-по-сибирски.html',
+    image: "./src/images/сугрев.jpeg",
+    name: 'Сугрев по-сибирски'
     },
 ]
 const productsList = new Section({

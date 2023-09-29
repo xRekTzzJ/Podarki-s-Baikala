@@ -2,7 +2,7 @@ import { Product } from "./Product.js"
 import { Section } from "./Section.js";
 const products = [
     {link: './tea-catalog.html',
-    image: "./src/images/чай тайга сибири.jpeg",
+    image: "./src/images/Чай-Клубничный-комплимент.jpg",
     name: 'Чай'
     },
     {link: './varenie-catalog.html',
