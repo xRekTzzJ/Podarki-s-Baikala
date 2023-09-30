@@ -72,3 +72,6 @@
 @import url(../blocks/footer/__order/footer__order.css);
 @import url(../blocks/footer/__order-image/footer__order-image.css);
 @import url(../blocks/footer/__order-text/footer__order-text.css);
+@import url(../blocks/bestsellers/bestsellers.css);
+@import url(../blocks/bestsellers/__title/bestsellers__title.css);
+@import url(../blocks/bestsellers/__items-container/bestsellers__items-container.css);
