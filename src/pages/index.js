@@ -25,9 +25,9 @@ const products = [
     image: "./src/images/блокнот 1.jpeg",
     name: 'Блокноты'
     },
-    {link: './keychains-catalog.html',
-    image: "./src/images/brelok.jpg",
-    name: 'Брелоки'
+    {link: './орешки-с-предсказанием.html',
+    image: "./src/images/орешек 1.jpeg",
+    name: 'Орешки с предсказанием'
     },
 ]
 const productsList = new Section({

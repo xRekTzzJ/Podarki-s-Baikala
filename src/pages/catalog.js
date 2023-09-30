@@ -13,6 +13,10 @@ const products = [
     image: "./src/images/блокнот 1.jpeg",
     name: 'Блокноты'
     },
+    {link: './орешки-с-предсказанием.html',
+    image: "./src/images/орешек 1.jpeg",
+    name: 'Орешки с предсказанием'
+    },
     {link: './keychains-catalog.html',
     image: "./src/images/brelok.jpg",
     name: 'Брелоки'
