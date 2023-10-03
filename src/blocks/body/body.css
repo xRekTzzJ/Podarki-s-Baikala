@@ -8,5 +8,6 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+    position: relative;
     background-color: #d3d3d3;
 }

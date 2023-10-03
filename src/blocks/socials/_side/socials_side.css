@@ -1,0 +1,15 @@
+.socials_side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 50%;
+    right: 37px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position:absolute;
+    z-index: 1010;
+    pointer-events:all;
+}

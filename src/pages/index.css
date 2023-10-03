@@ -75,3 +75,9 @@
 @import url(../blocks/bestsellers/bestsellers.css);
 @import url(../blocks/bestsellers/__title/bestsellers__title.css);
 @import url(../blocks/bestsellers/__items-container/bestsellers__items-container.css);
+@import url(../blocks/socials/socials.css);
+@import url(../blocks/socials/_side/socials_side.css);
+@import url(../blocks/socials/__link/socials__link.css);
+@import url(../blocks/socials/__fab/socials__fab.css);
+@import url(../blocks/socials/__fab/_vk/socials__fab_vk.css);
+@import url(../blocks/socials/__fab/_wa/socials__fab_wa.css);
