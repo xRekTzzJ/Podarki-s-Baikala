@@ -1,5 +1,8 @@
 import { Product } from "./Product.js"
 import { Section } from "./Section.js";
+import { Footer } from '../components/Footer.js';
+const footerInfo = new Footer();
+footerInfo.text();
 const products = [
     {link: './wooden-keychain.html',
     image: "./src/images/брелоки деревянные.jpeg",

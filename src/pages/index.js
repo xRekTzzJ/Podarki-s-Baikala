@@ -1,6 +1,9 @@
 import { Popup } from '../components/Popup.js';
 import { Product } from "./Product.js"
 import { Section } from "./Section.js";
+import { Footer } from '../components/Footer.js';
+const footerInfo = new Footer();
+footerInfo.text();
 //попап просмотра изображения
 const popupWithImage = new Popup('.popup_main');
 const mainImage = document.querySelector('.about-us__image');

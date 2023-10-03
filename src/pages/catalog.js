@@ -1,5 +1,8 @@
 import { Product } from "./Product.js"
 import { Section } from "./Section.js";
+import { Footer } from '../components/Footer.js';
+const footerInfo = new Footer();
+footerInfo.text();
 const products = [
     {link: './perpetual-calendar.html',
     image: "./src/images/календарь 2.jpeg",

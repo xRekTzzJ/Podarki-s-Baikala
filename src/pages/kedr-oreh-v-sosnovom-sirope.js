@@ -1,4 +1,7 @@
 import { Popup } from '../components/Popup.js';
+import { Footer } from '../components/Footer.js';
+const footerInfo = new Footer();
+footerInfo.text();
 const imageList = [
     {src: './src/images/Кедровый-орех-в-сосновом-сиропе-120-гр- 1.jpg',
     },

@@ -1,4 +1,7 @@
 import { Popup } from '../components/Popup.js';
+import { Footer } from '../components/Footer.js';
+const footerInfo = new Footer();
+footerInfo.text();
 const imageList = [
     {src: './src/images/Сибирский-пуэр-с-облепихой-96-гр.jpg',
     },

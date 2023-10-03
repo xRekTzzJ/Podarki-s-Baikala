@@ -1,4 +1,7 @@
 import { Popup } from '../components/Popup.js';
+import { Footer } from '../components/Footer.js';
+const footerInfo = new Footer();
+footerInfo.text();
 const popupWithImage = new Popup('.popup_main');
 const images =["./src/images/алена.jpeg", "./src/images/prospekt-from-door.jpeg", "./src/images/prospekt-shop.jpeg", './src/images/баннер.jpeg', './src/images/команда.jpeg'];
 let mainImage = document.querySelector('.main__image');

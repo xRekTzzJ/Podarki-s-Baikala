@@ -1,4 +1,7 @@
 import { Popup } from '../components/Popup.js';
+import { Footer } from '../components/Footer.js';
+const footerInfo = new Footer();
+footerInfo.text();
 const imageList = [
     {src: './src/images/Сосновое варенье с кедровым орехом 120 гр 3.jpg',
     },

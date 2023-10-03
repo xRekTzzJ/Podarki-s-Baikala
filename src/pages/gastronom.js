@@ -1,5 +1,8 @@
 import { Product } from "./Product.js"
 import { Section } from "./Section.js";
+import { Footer } from '../components/Footer.js';
+const footerInfo = new Footer();
+footerInfo.text();
 const products = [
     {link: './tea-catalog.html',
     image: "./src/images/Чай-Клубничный-комплимент.jpg",
