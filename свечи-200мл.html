@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/pages/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./src/pages/свечи-200мл.js" defer type="module"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <title>Арома-свечи 100мл</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(94844110, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/94844110"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </head>
+  <body class="body">
+    <div class="page">
+      <div class="socials">
+        <div class="socials_side">
+          <a
+            href="https://vk.com/prospekt_studio_sbk"
+            target="_blank"
+            class="socials__link"
+          >
+            <i class="socials__fab socials__fab_vk"></i>
+          </a>
+          <a
+            href="https://wa.me/+79148387830"
+            target="_blank"
+            class="socials__link"
+          >
+            <i class="socials__fab socials__fab_wa"></i>
+          </a>
+        </div>
+      </div>
+      <header class="header">
+        <a href="./index.html" class="header__logo">
+          <img
+            src="./src/images/logo.svg"
+            alt="Логотип."
+            class="header__logo-image"
+          />
+        </a>
+        <nav class="header__navigation">
+          <a href="./index.html" class="header__button-text">Главная</a>
+          <a href="./catalog.html" class="header__button-text">Каталог</a>
+          <a
+            href="./about-us.html"
+            class="header__button-text header__button-text_active"
+            >О нас</a
+          >
+        </nav>
+      </header>
+      <section class="main-catalog">
+        <h1 class="main-catalog__title">Каталог товаров</h1>
+        <div class="main-catalog__items-container">
+          <template class="product" id="product">
+            <a href="" class="main-catlog__item">
+              <img alt="Изображение товара" class="main-catalog__item-image" />
+              <h2 class="main-catlog__item-title"></h2>
+            </a>
+          </template>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__info">
+          <h3 class="footer__info-title">Магазин</h3>
+          <div class="footer__operating">
+            <img
+              src="./src/images/time.svg"
+              alt=""
+              class="footer__operating-image"
+            />
+            <span class="footer__operating-text"
+              >Режим работы: с 10:00 до 19:00</span
+            >
+          </div>
+          <div class="footer__order">
+            <img
+              src="./src/images/order.svg"
+              alt=""
+              class="footer__order-image"
+            />
+            <span class="footer__order-text">Доставка по всей России</span>
+          </div>
+          <div class="footer__phone">
+            <img
+              src="./src/images/phone.svg"
+              alt=""
+              class="footer__phone-image"
+            />
+            <span class="footer__phone-number">+7 (914) 838-78-30</span>
+          </div>
+        </div>
+        <div class="footer__copyright">© 2023 "Prospekt"</div>
+      </footer>
+    </div>
+  </body>
+</html>

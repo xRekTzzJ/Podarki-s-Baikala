@@ -48,6 +48,14 @@ const products = [
     image: "./src/images/мини-боксы.jpeg",
     name: 'Мини-боксы'
     },
+    {link: './натуральная-косметика-и-мыло.html',
+    image: "./src/images/мечта-золушки.jpeg",
+    name: 'Натуральная косметика и мыло'
+    },
+    {link: './свечи.html',
+    image: "./src/images/свечи.jpeg",
+    name: 'Свечи'
+    },
     {link: './panels.html',
     image: "./src/images/panno.jpeg",
     name: 'Панно'
@@ -75,10 +83,6 @@ const products = [
     {link: './wineglass.html',
     image: "./src/images/бокал 1.jpeg",
     name: 'Бокалы'
-    },
-    {link: './натуральная-косметика-и-мыло.html',
-    image: "./src/images/бальзамы.jpeg",
-    name: 'Натуральная косметика и мыло'
     },
 ]
 const productsList = new Section({
