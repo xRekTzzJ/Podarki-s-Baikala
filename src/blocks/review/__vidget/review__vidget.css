@@ -1,0 +1,38 @@
+.review__vidget{
+    width: 760px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 4px 7px 0 rgba(0,0,0,.16);
+}
+@media screen and (max-width: 850px) {
+    .review__vidget{
+        width: 650px;
+    } 
+}
+@media screen and (max-width: 730px) {
+    .review__vidget{
+        width: 550px;
+    } 
+}
+@media screen and (max-width: 600px) {
+    .review__vidget{
+        width: 450px;
+    } 
+}
+@media screen and (max-width: 500px) {
+    .review__vidget{
+        width: 400px;
+    } 
+}
+@media screen and (max-width: 450px) {
+    .review__vidget{
+        width: 350px;
+        height: 650px;
+    } 
+}
+@media screen and (max-width: 390px) {
+    .review__vidget{
+        width: 300px;
+    } 
+}
