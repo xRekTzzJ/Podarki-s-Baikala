@@ -76,6 +76,10 @@ const products = [
     image: "./src/images/бокал 1.jpeg",
     name: 'Бокалы'
     },
+    {link: './натуральная-косметика-и-мыло.html',
+    image: "./src/images/бальзамы.jpeg",
+    name: 'Натуральная косметика и мыло'
+    },
 ]
 const productsList = new Section({
     items: products,

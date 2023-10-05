@@ -12,6 +12,10 @@ const products = [
     image: "./src/images/Варенье-из-брусники-с-кедровым-орехом-125-гр-100-мл.jpg",
     name: 'Варенье'
     },
+    {link: './шоколад.html',
+    image: "./src/images/шоколад молочный с кедровым орехом и шишками.jpeg",
+    name: 'Шоколад'
+    },
     {link: './syrops-catalog.html',
     image: "./src/images/сиропы.jpg",
     name: 'Сиропы'
