@@ -13,7 +13,7 @@ const products = [
     name: 'Варенье'
     },
     {link: './шоколад.html',
-    image: ".././src/images/шоколад молочный с кедровым орехом и шишками.jpeg",
+    image: "./src/images/шоколад молочный с кедровым орехом и шишками.jpeg",
     name: 'Шоколад'
     },
     {link: './syrops-catalog.html',
