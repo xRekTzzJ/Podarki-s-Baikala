@@ -6,8 +6,3 @@
     z-index: 99;
     pointer-events: none;
 }
-@media screen and (max-width: 550px) {
-    .socials{
-        display: none;
-    }
-}
