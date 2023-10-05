@@ -8,5 +8,6 @@ export class Footer{
         order.textContent = 'Доставка по всей России'
         number.textContent = '+7 (914) 838-78-30'
         copyright.textContent = '© 2023 "Prospekt"'
+        console.log('для обратной связи по сайту -> vk.com/xrektzzj');
     }
 }
