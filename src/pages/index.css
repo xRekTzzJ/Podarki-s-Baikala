@@ -81,3 +81,56 @@
 @import url(../blocks/socials/__fab/socials__fab.css);
 @import url(../blocks/socials/__fab/_vk/socials__fab_vk.css);
 @import url(../blocks/socials/__fab/_wa/socials__fab_wa.css);
+.review{
+    margin: 0 0 40px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review__title{
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    text-align: center;
+}
+.review__vidget{
+    width: 760px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 4px 7px 0 rgba(0,0,0,.16);
+}
+@media screen and (max-width: 850px) {
+    .review__vidget{
+        width: 650px;
+    } 
+}
+@media screen and (max-width: 730px) {
+    .review__vidget{
+        width: 550px;
+    } 
+}
+@media screen and (max-width: 600px) {
+    .review__vidget{
+        width: 450px;
+    } 
+}
+@media screen and (max-width: 500px) {
+    .review__vidget{
+        width: 400px;
+    } 
+}
+@media screen and (max-width: 450px) {
+    .review__vidget{
+        width: 350px;
+    } 
+}
+@media screen and (max-width: 390px) {
+    .review__vidget{
+        width: 300px;
+    } 
+}
