@@ -127,6 +127,7 @@
 @media screen and (max-width: 450px) {
     .review__vidget{
         width: 350px;
+        height: 650px;
     } 
 }
 @media screen and (max-width: 390px) {
