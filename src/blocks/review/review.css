@@ -1,9 +1,9 @@
 .review{
     margin: 0;
-    padding: 0 0 40px;
+    padding: 10px 0 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f5e5ce;
+    background-color: #f5e5ce5a;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
