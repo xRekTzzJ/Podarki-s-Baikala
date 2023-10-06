@@ -20,6 +20,10 @@ const products = [
     image: "./src/images/орешек 1.jpeg",
     name: 'Орешки с предсказанием'
     },
+    {link: './магниты.html',
+    image: "./src/images/магниты.jpeg",
+    name: 'Магниты'
+    },
     {link: './keychains-catalog.html',
     image: "./src/images/brelok.jpg",
     name: 'Брелоки'
